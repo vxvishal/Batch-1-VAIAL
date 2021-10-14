@@ -1,0 +1,99 @@
+.heading
+{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 40px;
+}
+
+.contactinfo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.personinfo
+{
+    width: auto;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 15px;   
+    display: flex;
+    float: left;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.picture
+{
+    height: 80px;
+    width: 80px;
+}
+
+.displaypicture
+{
+    border-radius: 50%;
+}
+
+.details
+{
+    padding-left: 10px;
+}
+
+h1
+{
+    font-size: 24px;
+}
+
+h2
+{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) 
+{
+
+    .heading
+    {
+        text-align: center;
+    }
+
+    .contactinfo
+    {
+        display: block;
+        width: 100%;
+    }
+
+    .person
+    {
+        width: 100%;
+    }
+
+    .personinfo
+    {
+        width: 100%;
+        display: block;
+        margin-bottom: 18px;
+    }
+
+    .details
+    {
+        width: 100%;
+    }
+
+    .picture
+    {
+        margin: 0 auto;
+    }
+
+    h1
+    {
+        text-align: center;
+    }
+
+    h2
+    {
+        font-size: 18px;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+}
